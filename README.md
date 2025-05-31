@@ -10,6 +10,8 @@ The main functions of this repository are:
  - [lhs_visibility_upper](https://github.com/lucporto/LpJm/blob/main/src/lhs_models.jl): Computes an upper bound on the visibility for which a state becomes unsteerable.
  - [lhs_visibility_lower](https://github.com/lucporto/LpJm/blob/main/src/lhs_models.jl): Computes a lower bound on the visibility for which a state becomes unsteerable.
 
+Also, the function [critical_radius](https://github.com/lucporto/LpJm/blob/main/src/critical_radius.jl) is an implementation of the method to study the steerability of two-qubit states proposed in [Nguyen et al. (2019)](https://arxiv.org/abs/1808.09349).
+
 Typical usage can be found in the folder [examples](https://github.com/lucporto/LpJm/tree/main/examples).
 
 The default solver for linear and semidefinite programs is [MOSEK](https://www.mosek.com/), but it can be changed through the kwarg solver.
