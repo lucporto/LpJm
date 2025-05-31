@@ -1,0 +1,20 @@
+name = "LpJm"
+uuid = "a60e56e3-3ae3-4814-aa90-542a6dc9afc1"
+authors = ["Lucas Porto"]
+version = "0.1.0"
+
+[deps]
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+Ket = "412c778c-4733-41d8-b706-9e072557ba34"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MosekTools = "1ec41992-ff65-5c91-ac43-2df89e9693a4"
+Polyhedra = "67491407-f73d-577b-9b50-8179a7c68029"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
+
+[compat]
+JuMP = "1.23.2"
+Ket = "0.5.1"
+LinearAlgebra = "1.11.0"
+MosekTools = "0.15.1"
+Polyhedra = "0.8.1"
+Roots = "2.2.7"
