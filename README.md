@@ -1,4 +1,4 @@
-### Code to accompany: *[Measurement Incompatibility and Quantum Steering via Linear Programming](https://arxiv.org/abs/2505.xxxx)*
+### Code to accompany: *[Measurement Incompatibility and Quantum Steering via Linear Programming](http://arxiv.org/abs/2506.03045)*
 #### Lucas Porto, Sébastien Designolle, Sebastian Pokutta and Marco Túlio Quintino
 
 This repository contains an implementation of the methods proposed in the article, which was used to study the examples discussed therein.
